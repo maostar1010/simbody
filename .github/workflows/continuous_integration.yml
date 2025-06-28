@@ -2,6 +2,7 @@ name: continuous-integration
 
 # syntax https://help.github.com/en/articles/workflow-syntax-for-github-actions
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - '*'
